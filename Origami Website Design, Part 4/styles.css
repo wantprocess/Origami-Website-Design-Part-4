@@ -1,0 +1,159 @@
+.Words {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-family: monospace;
+}
+
+.Page {
+    display: flex;
+    justify-content: space-between;
+    background-color: #86ABA5;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+.images {
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
+.Camel {
+    border-radius: 20px;
+    background-color: white;
+    width: 310px;
+    font-family: fantasy;
+    padding: 30px;
+    margin: 25px;
+}
+
+.Chameleon {
+    border-radius: 20px;
+    background-color: white;
+    width: 310px;
+    font-family: fantasy;
+    padding: 30px;
+    margin: 25px;
+}
+
+.Pigeon {
+    border-radius: 20px;
+    background-color: white;
+    width: 310px;
+    font-family: fantasy;
+    padding: 30px;
+    margin: 25px;
+}
+
+.Teddy {
+    border-radius: 20px;
+    background-color: white;
+    width: 310px;
+    font-family: fantasy;
+    padding: 30px;
+    margin: 25px;
+}
+
+.Panda {
+    border-radius: 20px;
+    background-color: white;
+    width: 310px;
+    font-family: fantasy;
+    padding: 30px;
+    margin: 25px;
+}
+
+.Cicada {
+    border-radius: 20px;
+    background-color: white;
+    width: 310px;
+    font-family: fantasy;
+    padding: 30px;
+    margin: 25px;
+}
+
+body {
+    margin: 0px;
+    background-color: #F7F2F2;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.Camel:hover {
+    transform: scale(1.2);
+}
+
+.Chameleon:hover {
+    transform: scale(1.2);
+}
+
+.Pigeon:hover {
+    transform: scale(1.2);
+}
+
+.Teddy:hover {
+    transform: scale(1.2);
+}
+
+.Panda:hover {
+    transform: scale(1.2);
+}
+
+.Cicada:hover {
+    transform: scale(1.2);
+}
+
+a {
+    text-decoration: none;
+}
+
+.physique {
+    position: relative;
+}
+
+.physique p {
+    color: #F7F2F2;
+    font-size: 55px;
+    font-family: fantasy;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.physique h3 {
+    color: #F7F2F2;
+    font-size: 16px;
+    font-family: fantasy;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+}
